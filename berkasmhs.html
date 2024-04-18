@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data Mahasiswa</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/berkasmhs.css">
+
+	<style>
+	
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="sidebar">
+			<div class="header">
+				<div class="list-item">
+					<a href="#">
+						<span class="description-header">SIPTATIF</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="main">
+				<div class="list-item" id="home-button">
+					<a href="index.html">
+						<img src="assets/Home.svg" alt="" class="icon" >
+						<span class="description">Dashboard</span>
+					</a>
+					
+				</div>	
+				<div class="list-item" id="data-button">
+					<a href="data-mahasiswa.html">
+						<img src="assets/Data-on.svg" alt="" class="icon" >
+						<span class="description">Data Mahasiswa</span>
+					</a>
+					
+				</div>	
+				<div class="list-item" id="dosen-button">
+					<a href="pembimbing.html">
+						<img src="assets/Dosen.svg" alt="" class="icon" >
+						<span class="description">Pembimbing</span>
+					</a>
+				</div>	
+				<div class="list-item" id="dosen-button">
+					<a href="penguji.html">
+						<img src="assets/Dosen.svg" alt="" class="icon" >
+						<span class="description">Penguji</span>
+					</a>
+				</div>	
+			</div>		
+		</div>
+		
+		<div class="main-content">
+			<div class="status-bar">
+				<h1>
+					Data Mahasiswa
+				</h1>
+				<div class="profile">
+					<p>Koordinator PA</p>
+					<img src="assets/Profile.png" alt="" height="70px">
+					<!-- <a href="#"> &#x25BE; 
+						<ul class="dropdown">
+							<li><a href="#">LogOut</a></li>
+						</ul>
+					</a>	 -->	
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="content-box" id="title-content">
+					<h2 class="dlm"><a href="">Data List Mahasiswa</a></h2>
+					<h2 class="idp"><a href="input-dosen-penguji.html">Input Dosen Penguji</a></h2>
+				</div>	
+				<div class="berkas-mahasiswa">
+					<form class="form-mahasiswa">
+						<label for="jenis-pendaftaran">Jenis Pendaftaran</label> <br>
+						<input type="text" id="jenis-pendaftaran" name="jenis-pendaftaran" value="" readonly><br>
+						
+						<div class="form-mahasiswa" id="identitas">
+							<label for="nama, nim, email">Identitas</label> <br>
+							<input type="text" id="nama" name="nama" value="" placeholder="Nama" readonly>
+							
+							<input type="text" id="nim" name="nim" value="" placeholder="NIM" readonly>
+							
+							<input type="email" id="email" name="email" value="" placeholder="Email" readonly> <br>
+						</div>
+						
+						<label for="judul-ta">Judul Tugas Akhir</label> <br>
+						<input type="text" id="judul-ta" name="judul-ta" value="" readonly><br>
+
+						<label for="kategori-ta">Kategori Tugas Akhir</label><br>
+						<input type="text" id="kategori-ta" name="kategori-ta" value="" readonly><br>
+
+						<div class="form-mahasiswa">
+							<label for="dospem1, dospem2">Calon Dosen Pembimbing</label> <br>
+							<input type="text" id="dospem1" name="dospem1" value="" placeholder="Calon Dosen Pembinbing 1" readonly>
+							
+							<input type="text" id="dospem2" name="dospem2" value="" placeholder="Calon Dosen Pembinbing 2" readonly> <br>
+						</div>
+						<div class="form-mahasiswa" id="berkas-status-catatan">
+							<div class="berkas">
+								<label for="file">Berkas</label><br>
+								<iframe id="file" src="" width="200" height="200"></iframe>
+
+							</div>
+
+							<div class="status">
+								<p>Status</p>
+								<div id="status-box">
+									<input type="checkbox" id="diterima" name="diterima" value="diterima">
+									<label for="diterima">Diterima</label><br>
+
+									<input type="checkbox" id="ditolak" name="ditolak" value="ditolak">
+									<label for="ditolak">Ditolak</label><br>
+								</div>
+							</div>
+							
+							<div class="form-mahasiswa" id="catatan">
+								<label for="pesan">Pesan:</label><br>
+								<textarea id="pesan" name="pesan">Catatan</textarea><br>
+							</div>
+						</div>
+					</form>
+					<div class="button-kembali-kirim">
+						<button class="kembali" onclick="window.location.href='data-mahasiswa.html'">Kembali</button>
+						<button class="kirim" onclick="window.location.href='data-mahasiswa.html'">Kirim</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+</body>
+
+</html>

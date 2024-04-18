@@ -1,0 +1,49 @@
+
+#title-content{
+height: fit-content;
+padding: 10px;
+background-color: #383EC7;
+color: white;
+}
+
+.tambah{
+    background-color: white;
+    color: black;
+}
+.content-box h2{
+    width: 93%;
+}
+.content-box{
+    height: 80px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+}
+
+.identitas{
+    margin: 20px;
+    width: 30%;
+}
+.nisn{
+    font-weight: 400;
+}
+.jenis-kelamin{
+    margin: 20px;
+    width: 15%;
+    text-align: center;
+}
+.keahlian-kuota{
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #383EC7;
+    font-weight: 500;
+    border: #bfbfbf;
+}

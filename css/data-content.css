@@ -1,0 +1,54 @@
+#data-button span{
+    color: #383EC7;
+}
+
+#title-content{
+height: fit-content;
+padding: 10px;
+background-color: #383EC7;
+color: white;
+}
+
+.content-box{
+    height: 80px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nim{
+    font-weight: 400;
+}
+.tanggal{
+    margin: 20px;
+    width: 15%;
+}
+.identitas{
+    margin: 20px;
+    width: 30%;
+
+}
+.judul-ta{
+    margin: 20px;
+    width: 30%;
+    justify-content: center;
+}
+
+.status-edit{
+    margin: 20px;
+
+}
+.status{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #383EC7;
+    font-weight: 500;
+    border: #bfbfbf;
+}

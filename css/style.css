@@ -1,0 +1,139 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar{
+    background-color: white;
+    width: 210px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: fixed;
+    min-height: 100vh;;
+}
+
+
+.sidebar .description-header{
+    font-style: normal;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 16px;
+    color: #383EC7;
+    
+}
+.sidebar a{
+    text-decoration: none;
+}
+
+.sidebar .header .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 50px;
+
+}
+
+.sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #bfbfbf;
+}
+
+.sidebar .main .list-item .icon{
+    margin: 0 6px 0 6px;
+}
+
+#dosen-dropdown{
+    width: 19px;
+    margin: 15px;
+    float: right;
+    border: none;
+    background-color: none;
+}
+
+.sidebar .main .list-item span{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.sidebar .main .list-item{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 1px;
+    width: 180px;
+    border-radius: 8px;
+    align-items: center;;
+}
+
+
+.sidebar .main .list-item:hover{
+    background: #F5F6FB;
+}
+
+/* Main Content */
+.main-content{
+    background-color: #F5F6FB;
+    flex-grow: 1;
+    margin-left: 210px;
+    height: auto;
+}
+
+.main-content .status-bar{
+    display: flex;
+    padding: 25px;
+    max-height: 50px;
+}
+
+.main-content .status-bar h1{
+    width: 70%;
+    height: 80px;
+
+}
+
+.main-content .status-bar .profile{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    font-weight: 500;
+}
+
+.profile p, .profile img, 
+.profile select{
+    margin-right: 10px;
+}
+
+.profile a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+/* content box */
+
+.content-box{
+    margin:20px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 180px;
+}
+
+

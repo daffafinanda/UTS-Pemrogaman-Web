@@ -1,0 +1,78 @@
+#data-button span{
+    color: #383EC7;
+}
+
+#title-content{
+    height: fit-content;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #383EC7;
+}
+#title-content h2 a{
+    text-decoration: none;
+} 
+#title-content h2.dlm a{
+    color: white;
+    margin-right: 20px;
+}
+#title-content h2.idp a{
+    color: grey;
+}   
+
+/* form */
+.berkas-mahasiswa{
+    margin: 30px;
+    
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    height: 35px;
+    width: 92%;
+    border-radius: 5px;
+    
+}
+#identitas input{
+    width: 30%;
+    margin-right: 5px;
+}
+#berkas-status-catatan{
+    display: flex;
+}
+#berkas-status-catatan .berkas{
+    margin-right: 50px;
+}
+#berkas-status-catatan .status{
+    width: 30%;
+}
+#dospem1, #dospem2 {
+    margin: 0 0 10px 0;
+}
+.status p{
+    font-size: 20px;
+}
+#diterima, #ditolak{
+    width:20px ;
+    margin:10px
+}
+#pesan{
+    width: 530px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.kembali, .kirim{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #383EC7;
+    font-weight: 500;
+    border: #bfbfbf;
+}
+
+  

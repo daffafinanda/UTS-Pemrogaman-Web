@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data Mahasiswa</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dosen.css">
+
+	<style>
+	#pembimbing-button span{
+    color: #383EC7;
+}
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="sidebar">
+			<div class="header">
+				<div class="list-item">
+					<a href="#">
+						<span class="description-header">SIPTATIF</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="main">
+				<div class="list-item" id="home-button">
+					<a href="index.html">
+						<img src="assets/Home.svg" alt="" class="icon" >
+						<span class="description">Dashboard</span>
+					</a>
+					
+				</div>	
+				<div class="list-item" id="data-button">
+					<a href="data-mahasiswa.html">
+						<img src="assets/Data.svg" alt="" class="icon" >
+						<span class="description">Data Mahasiswa</span>
+					</a>
+					
+				</div>	
+				<div class="list-item" id="pembimbing-button">
+					<a href="#">
+						<img src="assets/Dosen-on.svg" alt="" class="icon" >
+						<span class="description">Pembimbing</span>
+					</a>
+				</div>	
+				<div class="list-item" id="penguji-button">
+					<a href="penguji.html">
+						<img src="assets/Dosen.svg" alt="" class="icon" >
+						<span class="description">Penguji</span>
+					</a>
+				</div>	
+			</div>		
+		</div>
+		
+		<div class="main-content">
+			<div class="status-bar">
+				<h1>
+					Dosen Pembimbing
+				</h1>
+				<div class="profile">
+					<p>Koordinator PA</p>
+					<img src="assets/Profile.png" alt="" height="70px">
+					<!-- <a href="#"> &#x25BE; 
+						<ul class="dropdown">
+							<li><a href="#">LogOut</a></li>
+						</ul>
+					</a>	 -->	
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="content-box" id="title-content">
+					<h2>Data Dosen Pembimbing</h2>
+					<button class="tambah" Onclick="window.location.href='input-data-pembimbing.html'">+ Tambah</button>
+				</div>	
+				<div class="list-dosen-pembimbing">
+
+					<div class="content-box" id="list0">
+						<div class="identitas">
+							<p class="nama">Nama</p>
+							<p class="nisn">NISN</p>
+						</div>
+						<div class="jenis-kelamin">
+						    <p>Jenis Kelamin</p>
+						</div>
+                        <div class="keahlian-kuota">
+                            <p class="keahlian">Keahlian</p>
+                            <p class="kuota">(Kuota)</p>
+                        </div>
+						<div class="button">
+							<button onclick="window.location.href='detail-data-pembimbing.html'">Lihat</button>
+							<button onclick="window.location.href='edit-data-pembimbing.html'">Edit</button>
+                            <button onclick="window.location.href=''">Hapus</button>
+						</div>
+					</div>
+
+					<div class="content-box" id="list0">
+						<div class="identitas">
+							<p class="nama">Nama</p>
+							<p class="nisn">NISN</p>
+						</div>
+						<div class="jenis-kelamin">
+						    <p>Jenis Kelamin</p>
+						</div>
+                        <div class="keahlian-kuota">
+                            <p class="keahlian">Keahlian</p>
+                            <p class="kuota">(Kuota)</p>
+                        </div>
+						<div class="button">
+							<button onclick="window.location.href='detail-data-pembimbing.html'">Lihat</button>
+							<button onclick="window.location.href='edit-data-pembimbing.html'">Edit</button>
+                            <button onclick="window.location.href=''">Hapus</button>
+						</div>
+					</div>
+
+                    <div class="content-box" id="list0">
+						<div class="identitas">
+							<p class="nama">Nama</p>
+							<p class="nisn">NISN</p>
+						</div>
+						<div class="jenis-kelamin">
+						    <p>Jenis Kelamin</p>
+						</div>
+                        <div class="keahlian-kuota">
+                            <p class="keahlian">Keahlian</p>
+                            <p class="kuota">(Kuota)</p>
+                        </div>
+						<div class="button">
+							<button onclick="window.location.href='detail-data-pembimbing.html'">Lihat</button>
+							<button onclick="window.location.href='edit-data-pembimbing.html'">Edit</button>
+                            <button onclick="window.location.href=''">Hapus</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+
+	</div>
+
+</body>
+
+</html>

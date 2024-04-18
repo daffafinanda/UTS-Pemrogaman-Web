@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data Mahasiswa</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/idp-content.css">
+
+	<style>
+	
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="sidebar">
+			<div class="header">
+				<div class="list-item">
+					<a href="#">
+						<span class="description-header">SIPTATIF</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="main">
+				<div class="list-item" id="home-button">
+					<a href="index.html">
+						<img src="assets/Home.svg" alt="" class="icon" >
+						<span class="description">Dashboard</span>
+					</a>
+					
+				</div>	
+				<div class="list-item" id="data-button">
+					<a href="data-mahasiswa.html">
+						<img src="assets/Data-on.svg" alt="" class="icon" >
+						<span class="description">Data Mahasiswa</span>
+					</a>
+					
+				</div>	
+				<div class="list-item" id="dosen-button">
+					<a href="pembimbing.html">
+						<img src="assets/Dosen.svg" alt="" class="icon" >
+						<span class="description">Pembimbing</span>
+					</a>
+				</div>	
+				<div class="list-item" id="dosen-button">
+					<a href="penguji.html">
+						<img src="assets/Dosen.svg" alt="" class="icon" >
+						<span class="description">Penguji</span>
+					</a>
+				</div>	
+			</div>		
+		</div>
+		
+		<div class="main-content">
+			<div class="status-bar">
+				<h1>
+					Dosen Penguji
+				</h1>
+				<div class="profile">
+					<p>Koordinator PA</p>
+					<img src="assets/Profile.png" alt="" height="70px">
+					<!-- <a href="#"> &#x25BE; 
+						<ul class="dropdown">
+							<li><a href="#">LogOut</a></li>
+						</ul>
+					</a>	 -->	
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="content-box" id="title-content">
+					<h2 class="dlm"><a href="berkasmhs.html">Data List Mahasiswa</a></h2>
+					<h2 class="idp"><a href="">Input Dosen Penguji</a></h2>
+				</div>	
+				<div class="form-idp">
+					<form action="">
+                        <label for="dosenpenguji1">Dosen Penguji 1</label> <br>
+                        <select name="dosenpenguji1" id="dosenpenguji1" >
+                            <option value=""></option>
+                            <option value="dosen1">Dosen</option>
+                            <option value="dosen1">Dosen</option>
+                            <option value="dosen1">Dosen</option>
+                        </select> <br>
+
+                        <label for="dosenpenguji2">Dosen Penguji 2</label> <br>
+                        <select name="dosenpenguji2" id="dosenpenguji1" >
+                            <option value=""></option>
+                            <option value="dosen1">Dosen</option>
+                            <option value="dosen1">Dosen</option>
+                            <option value="dosen1">Dosen</option>
+                        </select> <br>
+                    </form>
+				</div>
+                <div class="tabel-idp">
+                    <table>
+                        <tr>
+                          <th id="tabel-no">No</th>
+                          <th class="nama-list-dosen">Nama Dosen</th>
+                          <th>NISN</th>
+                          <th>Jenis Kelamin</th>
+                          <th>Kuota</th>
+                          <th>Keahlian</th>
+                        </tr>
+                        <tr>
+                          <td id="tabel-no">1</td>
+                          <td class="nama-list-dosen">Dosen 1</td>
+                          <td>12345</td>
+                          <td>Pria</td>
+                          <td>10</td>
+                          <td>Pemrogaman</td>
+                        </tr>
+                        <tr>
+                          <td id="tabel-no">2</td>
+                          <td class="nama-list-dosen">Dosen 2</td>
+                          <td>12345</td>
+                          <td>Wanita</td>
+                          <td>10</td>
+                          <td>Database</td>
+                        </tr>
+                      </table>
+                </div>
+			</div>
+
+		</div>
+		
+	</div>
+
+</body>
+
+</html>

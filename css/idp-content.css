@@ -1,0 +1,51 @@
+#data-button span{
+    color: #383EC7;
+}
+
+#title-content{
+    height: fit-content;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #383EC7;
+}
+#title-content h2 a{
+    text-decoration: none;
+} 
+#title-content h2.dlm a{
+    color: grey;
+    margin-right: 20px;
+}
+#title-content h2.idp a{
+    color: white;
+}   
+
+.form-idp{
+    margin: 30px;
+}
+select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+table{
+    width: 100%;
+}
+table th td{
+    border: 2px solid black;
+}
+.tabel-idp {
+    margin: 30px;
+    width: 95%; 
+    border-collapse: collapse;
+  }
+  .tabel-idp table {
+    width: 100%;
+  }
+  .tabel-idp th, .tabel-idp td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  

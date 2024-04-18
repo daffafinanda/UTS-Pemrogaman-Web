@@ -1,0 +1,49 @@
+#home-button span{
+    color: #383EC7;
+}
+
+/* Welcome content */
+
+.content{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#welcome-content{
+    background-color: #383EC7;
+    color: white;
+    display: flex;
+    
+    width: 60%;
+    
+}
+.welcome-text{
+    width: 70%;
+    font-size: 20px;
+    padding: 30px;
+}
+.welcome-text h2, .welcome-text p{
+    margin: 5px;
+
+}
+.welcome-image {
+    flex-grow: 1;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Content 0 */
+#content0{
+    width: 22%;
+}
+/* content 1 */
+#content1{
+    width: 95%;
+}
+#content2{
+    width: 95%;
+}

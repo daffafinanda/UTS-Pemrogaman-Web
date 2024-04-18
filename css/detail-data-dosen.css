@@ -1,0 +1,42 @@
+#title-content{
+    height: fit-content;
+    padding: 10px;
+    background-color: #383EC7;
+    color: white;
+}
+
+.mahasiswa-bimbingan p{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+table{
+    width: 100%;
+}
+table th td{
+    border: 2px solid black;
+}
+.tabel-mhs {
+    margin: 30px;
+    width: 95%; 
+    border-collapse: collapse;
+  }
+  .tabel-mhs table {
+    width: 100%;
+  }
+  .tabel-mhs th, .tabel-mhs td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+.kembali{
+    font-size: 15px;
+    margin: 0 0 0 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #383EC7;
+    font-weight: 500;
+    border: #bfbfbf;
+}
